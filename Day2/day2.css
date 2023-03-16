@@ -1,0 +1,129 @@
+/* p {
+  background-color: red;
+} */
+
+/* .name1 {
+  background-color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.name2 {
+  background-color: yellow;
+  font-size: 100px;
+} */
+
+/* .name1 {
+  background-color: peachpuff;
+}
+
+#card1 {
+  color: aqua;
+}
+
+#card2 {
+  color: green;
+} */
+
+.vidu {
+  display: block;
+}
+
+.vidu1 {
+  display: block;
+}
+
+/* Thuộc tính padding: dùng để tạo khoảng cách giữa nội dung và đường viền */
+/* Cách viết tắt padding khi cần chỉnh 4 góc: trên phải dưới trái (top right bottom left) */
+/* Cách viết tắt padding khi top = bottom và left = right: 2 thông số */
+
+/* Thuộc tính border: 
+    border-width: chiều rộng của đường viền
+    border-color: màu của đường viền
+    border-style: kiểu của đường viền
+    border: width style color;
+*/
+
+/* Thuộc tính margin: 
+    Dùng để cách lề, tạo khoảng cách giữa các khối div
+*/
+.teacher {
+  width: 300px;
+  background-color: antiquewhite;
+  display: inline-block;
+  /* padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 50px; */
+  padding: 20px 40px;
+  border-width: 10px;
+  border-color: green;
+  border-style: groove;
+  margin-top: 100px;
+}
+
+.teacher h1 {
+  background-color: rgb(212, 125, 125);
+}
+
+.teacher1 {
+  margin-left: 30px;
+  width: 300px;
+  background-color: rgb(182, 135, 226);
+  display: inline-block;
+}
+
+.teacher1 p {
+  margin-top: 50px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Form ví dụ */
+.form {
+  width: 350px;
+  /* background-color: antiquewhite; */
+  /* border: red solid 3px; */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 300px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Dancing Script", cursive;
+}
+
+.username {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid rgb(96, 88, 241);
+  outline: none;
+}
+
+.password {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid rgb(96, 88, 241);
+  outline: none;
+}
+
+.form button {
+  width: 100%;
+  padding: 14px;
+  background-color: rgb(96, 88, 241);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-style: none;
+  border-radius: 10px;
+}

@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 700px;
+  height: 500px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.no1 {
+  background-color: red;
+  border: 2px solid white;
+}
+
+.no2 {
+  background-color: green;
+  border: 2px solid white;
+}
+
+.no3 {
+  background-color: grey;
+  border: 2px solid white;
+  align-items: flex-end;
+}
+
+.no4 {
+  background-color: rgb(90, 5, 5);
+  border: 2px solid white;
+  align-items: flex-end;
+}

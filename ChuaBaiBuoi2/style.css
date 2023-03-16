@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 30px;
+}
+
+.topSection {
+  width: 90%;
+  height: 700px;
+  padding: 20px;
+  background-color: antiquewhite;
+  border: 2px solid red;
+  margin-bottom: 20px;
+  display: flex;
+  /* Khi ta gọi thuộc tính display flex cho khối container chứ những items nhỏ
+    thì lập tức các items sẽ nằm ngang hàng nhau
+    => khi đó justify-content: sẽ dùng để căn chỉnh trục ngang
+    và align-items: sẽ dùng để căn chỉnh trục dọc
+  */
+  justify-content: space-evenly;
+}
+
+.product {
+  width: 250px;
+  border: 2px solid black;
+  /* display: inline-block; */
+  margin-right: 20px;
+  height: 250px;
+}
+
+.product img {
+  width: 100%;
+}
