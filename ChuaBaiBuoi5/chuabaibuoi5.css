@@ -5,10 +5,11 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Dancing Script", cursive;
 }
 
 .menu {
+  color: #ff0000;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
