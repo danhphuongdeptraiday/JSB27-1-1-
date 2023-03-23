@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Menu</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        font-size: larger;
+        font-family: "Edu NSW ACT Foundation", cursive;
+      }
+
+      .item {
+        padding-left: 100px;
+      }
+
+      .mail {
+        padding-right: 100px;
+      }
+
+      .pictures {
+        padding: 0 100px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+      }
+
+      img {
+        width: 25%;
+        height: 400px;
+      }
+
+      .intro {
+        padding-left: 100px;
+        font-family: "Roboto Mono", monospace;
+        font-size: smaller;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .detail {
+        padding-left: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 10px;
+      }
+
+      .no4 {
+        padding-right: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <span class="item">Items</span>
+      <span class="food">My Food</span>
+      <span class="mail">Mail</span>
+    </div>
+
+    <div class="pictures">
+      <img src="./sandwich.jpg" alt="sandwich" />
+      <img src="./steak.jpg" alt="steak" />
+      <img src="./cherry.jpg" alt="cherry" />
+      <img src="./pasta.jpg" alt="pasta" />
+    </div>
+
+    <div class="topicSentence">
+      <span class="intro">The Perfect Sandwich, A Real NYC Classic</span>
+      <span class="intro">Let Me Tell You About This Steak</span>
+      <span class="intro">Cherries, interrupted</span>
+      <span class="intro no4">Once Again, Robust Wine And Pasta</span>
+    </div>
+
+    <div class="detail">
+      <div class="no1">
+        <i><span>Just some random text, lorem Ipsum text</span></i>
+        <i><p>praesent tincidunt ipsum lipsum.</p></i>
+      </div>
+
+      <div class="no2">
+        <i><span>Once again, some random text to lorem</span></i>
+        <i><p>lorem lorem lorem Ipsum text preasent</p></i>
+        <i><p>tincidunt ipsum lipsum.</p></i>
+      </div>
+
+      <div class="no3">
+        <i><span>Lorem Ipsum text preasent tincidunt</span></i>
+        <i><p>ipsum lipsum.</p></i>
+      </div>
+
+      <div class="no4">
+        <i><span>Lorem Ipsum text preasent tincidunt</span></i>
+        <i><p>ipsum lipsum.</p></i>
+      </div>
+    </div>
+  </body>
+</html>
